@@ -1,0 +1,39 @@
+.Logo{
+	width:50px;
+}
+
+.LogoP img{
+	width: 15%;
+	vertical-align: middle !important; 
+	border-radius: 40px;
+}
+.fila{
+	background-color: #94C9FD;
+
+}
+#mago{
+  width: 50vh;
+}
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  10px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+@media screen and (max-width: 480px) {
+    .red-social{
+    	margin:0 auto;
+    }
+}

@@ -1,0 +1,65 @@
+html{
+  background-image: transparent;  
+  background-image: url("../img/cocina.jpg");
+  background-repeat: no-repeat;
+  
+}
+.fondo{
+
+  background-color: white;
+   
+}
+h3{
+  text-align: right;
+}
+
+.Logo{
+	width:50px;
+}
+
+.LogoP img{
+	width: 15%;
+	vertical-align: middle !important; 
+	border-radius: 40px;
+}
+.fila{
+	background-color: #94C9FD;
+
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  10px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+@media (max-width: 480px) 
+{
+    .TamImagen{
+    	margin:0 auto;
+      text-align: center;
+      width: 300px;
+      height: 300px;
+    }
+}
+
+.TamImagen{
+  width: 100px;
+  height: 100px;
+  border:1px solid;
+}
+img{
+  margin: 0 auto;
+}
